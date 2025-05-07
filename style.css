@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.choice {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100px;
+}
+
+.choice:hover {
+    background-color: white;
+    color: #2575fc;
+}
+
+#result {
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
